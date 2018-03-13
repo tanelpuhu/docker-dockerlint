@@ -3,9 +3,9 @@
 Usage: 
 
     $ docker run --rm -v ${PWD}/Dockerfile:/Dockerfile tanel/dockerlint -h
-    Dockerlint 0.3.1
-    
-        usage: dockerlint [-h] [-dp] [-f Dockerfile]
+    Dockerlint 0.3.7
+
+     	usage: dockerlint [-h] [-d] [-p] [-f Dockerfile]
 
 In action:
 
