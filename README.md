@@ -1,6 +1,6 @@
 # docker-dockerlint
 
-Usage: 
+Usage:
 
     $ docker run --rm -v ${PWD}/Dockerfile:/Dockerfile tanel/dockerlint -h
     Dockerlint 0.3.7
@@ -12,4 +12,3 @@ In action:
     $ docker run --rm -v ${PWD}/Dockerfile:/Dockerfile tanel/dockerlint -p
 
     INFO: /Dockerfile is OK.
-
