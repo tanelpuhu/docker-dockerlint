@@ -3,7 +3,7 @@ set -ex
 
 EXPECTED="Dockerlint 0.3.9"
 
-docker build -t dockerlint .
+docker build --pull -t dockerlint .
 
 OUTPUT=$(docker run dockerlint -h 2>&1)
 
