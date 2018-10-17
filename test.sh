@@ -5,7 +5,7 @@ EXPECTED="Dockerlint 0.3.9"
 
 docker build --pull -t dockerlint .
 
-OUTPUT=$(docker run dockerlint -h 2>&1)
+OUTPUT=$(docker run --rm dockerlint -h 2>&1)
 
 if [[ "$OUTPUT" == "$EXPECTED"* ]]; then
   echo "All good, output was as expected"
