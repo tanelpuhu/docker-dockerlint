@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:alpine
 
 ENV DOCKERLINT_VERSION="0.3.9"
 
